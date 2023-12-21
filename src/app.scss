@@ -1,0 +1,32 @@
+$primary: #FFC222;
+$secondary: #00a149;
+$footer: #111111;
+$--white-color: #fff;
+$--text-color: #b0b0b0;
+$--black-color: #1e1d23;
+
+
+//Fonts
+$headings-font-family: 'Montserrat', sans-serif;
+$headings-font-weight: 700;
+$font-family-base: 'Roboto', sans-serif;
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'footer': $footer,
+  '--white-color': $--white-color,
+  '--text-color': $--text-color,
+  '--black-color': $--black-color,
+);
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+@import 'responsive-style.scss';
+@import 'footer.scss';
+@import 'testimonial.scss';
+@import 'about';
+@import 'menu';
+@import 'hero';
+@import 'header';
+
